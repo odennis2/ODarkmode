@@ -1,4 +1,4 @@
-// BrowserDarkMode — popup logic
+// ODarkMode — popup logic
 // Whitelist model: dark mode is OFF on all sites by default; the site button
 // turns it ON for the current site. Also handles master toggle, mode
 // (filter/smart), and filter-mode-only brightness/contrast sliders,

@@ -1,4 +1,4 @@
-// BrowserDarkMode — content script
+// ODarkMode — content script
 // Runs on every page at document_start. Injects a filter-based dark mode
 // stylesheet before first paint, and reacts live to setting changes.
 

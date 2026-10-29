@@ -1,4 +1,4 @@
-// BrowserDarkMode — Smart Mode engine
+// ODarkMode — Smart Mode engine
 // Analyzes the page's actual computed colors and restyles elements directly,
 // instead of applying a CSS filter.
 //

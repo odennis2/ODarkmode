@@ -1,4 +1,4 @@
-// BrowserDarkMode — MV3 service worker
+// ODarkMode — MV3 service worker
 // Handles install, startup, and cross-tab coordination.
 
 chrome.runtime.onInstalled.addListener((details) => {

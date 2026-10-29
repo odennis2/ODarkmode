@@ -1,4 +1,4 @@
-# BrowserDarkMode
+# ODarkMode
 
 A dark mode web browser extension for Chrome (Manifest V3).
 

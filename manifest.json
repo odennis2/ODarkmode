@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "BrowserDarkMode",
+  "name": "ODarkMode",
   "version": "0.4.0",
   "description": "A dark mode extension for the web.",
   "minimum_chrome_version": "116",
@@ -11,7 +11,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "BrowserDarkMode",
+    "default_title": "ODarkMode",
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
