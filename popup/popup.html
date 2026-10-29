@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>BrowserDarkMode</title>
+</head>
+<body>
+  <header>
+    <h1>BrowserDarkMode</h1>
+  </header>
+
+  <main>
+    <label class="row">
+      <span>Dark mode</span>
+      <input type="checkbox" id="enabled" />
+    </label>
+
+    <label class="row">
+      <span>Mode</span>
+      <select id="mode">
+        <option value="filter">Filter</option>
+        <option value="smart">Smart</option>
+      </select>
+    </label>
+
+    <label class="row filter-only">
+      <span>Brightness <span id="brightnessVal">100%</span></span>
+      <input type="range" id="brightness" min="30" max="150" step="5" value="100" />
+    </label>
+
+    <label class="row filter-only">
+      <span>Contrast <span id="contrastVal">100%</span></span>
+      <input type="range" id="contrast" min="30" max="150" step="5" value="100" />
+    </label>
+
+    <button id="siteToggle" class="site-toggle"></button>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

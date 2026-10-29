@@ -1,0 +1,23 @@
+# Internal planning notes — not for the public repo
+PLAN.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies (if the project ever gains a build step)
+node_modules/
+
+# Chrome Web Store packaging artifacts
+*.zip
+*.crx
+*.pem
+
+# Chrome unpacked-extension temp files
+*.crswap
